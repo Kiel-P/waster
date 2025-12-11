@@ -62,3 +62,6 @@ button.stop{ background:#c44a4a }
 .status{ display:flex; justify-content:space-between; align-items:center; color:var(--muted); margin-top:8px }
 .status .wasted{ color:var(--green); font-weight:600 }
 .footer{ text-align:center; margin-top:12px; color:var(--muted); font-size:12px }
+
+.footer span { display: grid;
+}
