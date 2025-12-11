@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Data Waster - Test Kuota</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="card">
+    <header class="header">
+      <div class="icon">📶</div>
+      <h1>Data Waster</h1>
+      <p class="subtitle">Wasting your valuable mobile data is easier than ever before.</p>
+    </header>
+
+    <hr>
+
+    <section class="controls">
+      <label class="row">
+        <span>I want to waste</span>
+        <input id="mbInput" type="number" min="0" value="0" />
+        <span>Megabytes</span>
+      </label>
+      <div class="hint">0 = infinite</div>
+      <div class="buttons">
+        <button id="startBtn" class="start">▶ Start</button>
+        <button id="stopBtn" class="stop hidden">■ Stop</button>
+        <button id="saveBtn" class="secondary">Save Log</button>
+      </div>
+    </section>
+
+    <hr>
+
+    <section class="status">
+      <div class="wasted"><span id="wastedMb">0</span> Megabytes wasted</div>
+      <div class="speed">(<span id="speedMbps">0</span> Mbps)</div>
+    </section>
+
+    <footer class="footer">
+      <small>Data Waster demo — logs available at /logs</small>
+    </footer>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
