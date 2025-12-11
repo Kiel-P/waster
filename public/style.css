@@ -63,5 +63,5 @@ button.stop{ background:#c44a4a }
 .status .wasted{ color:var(--green); font-weight:600 }
 .footer{ text-align:center; margin-top:12px; color:var(--muted); font-size:12px }
 
-.kiki { display: grid;
+.footer .kiki { display: grid;
 }
